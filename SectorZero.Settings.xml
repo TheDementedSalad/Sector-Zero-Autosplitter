@@ -1,0 +1,8 @@
+<Settings>
+    <Setting Id="Levels"  Label="Checkpoint Splits" State="true">
+		<Setting Id="Lvl_Level Prequel 1"  Label="Clear Level 1" State="false"/>
+		<Setting Id="Lvl_Level Prequel 2"  Label="Clear Level 2" State="false"/>
+		<Setting Id="Lvl_Level Prequel 3"  Label="Clear Level 3" State="false"/>
+	</Setting>
+	<Setting Id="Final"  Label="Clear Level 4 (Final Split Always Active" State="true"/>
+</Settings>
