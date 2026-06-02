@@ -14,22 +14,6 @@ startup
     vars.Helper.GameName = "Aethermancer";
 	vars.Helper.Settings.CreateFromXml("Components/SectorZero.Settings.xml");
 	vars.Helper.LoadSceneManager = true;
-	//Aethermancer Demo Autosplitter V1.0 15/02/2025
-//Timed via Load Remover - Please compare to Game Time
-//Credit to:
-//TheDementedSalad - Created the splitter
-//Joey - Testing
-
-state("SECTOR ZERO")
-{}
-
-startup
-{
-	timer.CurrentTimingMethod = TimingMethod.GameTime;
-	Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Unity");
-    vars.Helper.GameName = "Aethermancer";
-	vars.Helper.Settings.CreateFromXml("Components/SectorZero.Settings.xml");
-	vars.Helper.LoadSceneManager = true;
 	
 	vars.completedSplits = new HashSet<string>();
 }
